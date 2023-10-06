@@ -1,3 +1,8 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -16,6 +21,7 @@ body{
     align-items: center;
     background-color: #081543;
     height: 7rem;
+    padding: 1.5rem 2.0rem;
     
 
 
@@ -25,17 +31,54 @@ body{
     width: 6rem;
 }
 
-.menu{
+.logo-image{
+    width: 100%;
+}
+
+.btn-menu{
+    cursor: pointer;
+    display: none;
+}
+.itens{
     list-style: none;
     display: flex;
+    align-items: center;
     padding: 1rem;
+    color: white;
     
+}
+
+.itens li{
+    margin: 0 15px;
+}
+
+.itens li a{
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-button button{
+    border: none;
+    background-color: #1ad1b9;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.login-button button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-decoration: none;
 }
 
 
 
 @media (max-width:700px){
-    .menu{
+    .btn-menu{
+        display: block;
+    }
+    .itens{
         display: none;
     }
-}
+}   
