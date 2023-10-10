@@ -12,31 +12,40 @@
 </head>
 
 <body>
-    <header class="cabecalho">
-        <img class="logo" src="logo.png" alt="">
-        <nav>
-            <div class="btn-menu">
-                <i id="burguer" class="material-symbols-outlined" onclick='clickMenu'>menu</i>
-            </div>
-            <ul class="itens">
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Projetos</a></li>
-                <li><a href="#">Links</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+    <header >
+            <nav class="cabecalho">
+                <img class="logo" src="logo.png" alt="">
+                <div class="menu">
+                    <ul class="itens">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="login-button">
+                    <button><a href="#">Entrar</a></button>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick='menuShow()'><i id="icon" class="material-symbols-outlined" >menu</i></button>
+                </div>
+                <div class="mobile-menu">
+                    <ul class="itens">
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
 
-
+                </div>
         </nav>
-
-        <div class="login-button">
-            <button><a href="#">Entrar</a></button>
-        </div>
-
-        <div class="mobile-meneu"></div>
-
     </header>
 
-    
+    <script src="script.js"></script>
 </body>
 
 </html>

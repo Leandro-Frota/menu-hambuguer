@@ -21,7 +21,9 @@ body{
     align-items: center;
     background-color: #081543;
     height: 7rem;
+    width: 100vw;
     padding: 1.5rem 2.0rem;
+    box-shadow: 0px 3px 10px #081543 ;
     
 
 
@@ -31,14 +33,7 @@ body{
     width: 6rem;
 }
 
-.logo-image{
-    width: 100%;
-}
 
-.btn-menu{
-    cursor: pointer;
-    display: none;
-}
 .itens{
     list-style: none;
     display: flex;
@@ -72,13 +67,59 @@ body{
     text-decoration: none;
 }
 
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
 
 
 @media (max-width:700px){
-    .btn-menu{
+    .mobile-menu-icon{
         display: block;
     }
-    .itens{
+    .menu{
         display: none;
     }
-}   
+    
+   .login-button{
+        display: none;
+    }
+  
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }   
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu ul li{
+        display: block;
+        padding-top: 1.2rem;
+
+    }
+
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+
+    .open{
+        display: block;
+    }
+
+}
