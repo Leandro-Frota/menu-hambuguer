@@ -73,10 +73,11 @@ body{
 
 .mobile-menu{
     display: none;
+    background-color: #081543;
 }
 
 
-@media (max-width:700px){
+@media (max-width:730px){
     .mobile-menu-icon{
         display: block;
     }
@@ -108,7 +109,7 @@ body{
         padding-top: 1.2rem;
 
     }
-
+ 
     .mobile-menu .login-button{
         display: block;
         padding: 1rem 2rem;
