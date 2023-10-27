@@ -1,5 +1,7 @@
 # menu-hambuguer
-Desenvolvendo cabeçalho - menu hamburguer.
+Desenvolvido um cabeçalho como forma de aprendizagem do menu Drop Down (Hamburgyer).
+
+# Referências
 
 Link Gustavo Guanabara : https://www.youtube.com/watch?v=Dd6Z3gkud18
 
